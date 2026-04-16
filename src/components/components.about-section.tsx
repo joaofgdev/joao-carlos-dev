@@ -9,7 +9,7 @@ export function AboutSection() {
       <div className="flex flex-col lg:flex-row items-center gap-16 lg:gap-20 w-full">
         {/* Left Side: Image */}
         <div className="w-full lg:w-[45%] flex justify-center lg:justify-start">
-          <div className="relative w-full max-w-[400px] aspect-[4/5] overflow-hidden rounded-[2rem] border border-white/10 shadow-2xl group">
+          <div className="relative w-full max-w-[400px] aspect-[4/5] overflow-hidden rounded-[15px] border border-white/10 shadow-2xl group">
             <Image
               src="/imagen pessoal 1.jpeg"
               alt="João Carlos"

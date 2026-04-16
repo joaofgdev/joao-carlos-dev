@@ -1,6 +1,7 @@
 import { ButtonAbout } from "@/components/components.button-about";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
 import { AboutSection } from "@/components/components.about-section";
+import { ExperienceSection } from "@/components/components.experience-section";
 
 export default function Home() {
   return (
@@ -63,6 +64,7 @@ export default function Home() {
       </main>
 
       <AboutSection />
+      <ExperienceSection />
     </>
   );
 }

@@ -1,0 +1,30 @@
+{
+  "pageTitle": "Experiência e Trajetória",
+  "timeline": [
+    {
+      "year": "2026",
+      "title": "Entrada no Mercado de Trabalho",
+      "description": "Conquistei meu primeiro estágio profissional como Desenvolvedor Full Stack na Atrio Softwares. Atuo no desenvolvimento de soluções completas, participando ativamente de projetos reais e integrando tecnologias de frontend e backend em um ambiente corporativo de alto desempenho."
+    },
+    {
+      "year": "2025",
+      "title": "Formação Acadêmica e Empreendedorismo",
+      "description": "Iniciei a graduação em Análise e Desenvolvimento de Sistemas na Unidep. Durante este período, o projeto pHbot amadureceu, tornando-se uma startup incubada na ITECPB, dentro do Parque Tecnológico de Pato Branco."
+    },
+    {
+      "year": "2024",
+      "title": "Conclusão de Ciclo e Pré-Incubação",
+      "description": "Concluí o Ensino Médio e participei de programas de pré-incubação, transformando conhecimentos técnicos em visão de mercado. Apresentei soluções inovadoras na Feira Iventum, consolidando meu interesse em empreendedorismo tecnológico."
+    },
+    {
+      "year": "2023",
+      "title": "Inovação em Robótica e Reconhecimento",
+      "description": "Desenvolvi o pHbot, projeto de robótica voltado ao monitoramento ambiental de ecossistemas aquáticos. Fui destaque no Programa Agrinho e apresentei o projeto em feiras de tecnologia como a Educatech, em Guarapuava."
+    },
+    {
+      "year": "2022",
+      "title": "O Início na Programação",
+      "description": "Dei meus primeiros passos no desenvolvimento de software através da plataforma Alura. Iniciei meus estudos em lógica e linguagens de programação, construindo a base técnica necessária para minha evolução na área."
+    }
+  ]
+}
