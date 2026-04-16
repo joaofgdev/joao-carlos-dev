@@ -1,0 +1,45 @@
+{
+  "pageTitle": "Minhas Skills",
+  "skills": [
+    {
+      "name": "SQL",
+      "percentage": 65,
+      "level": "INTERMEDIÁRIO"
+    },
+    {
+      "name": "JAVA",
+      "percentage": 40,
+      "level": "BÁSICO"
+    },
+    {
+      "name": "SPRING BOOT",
+      "percentage": 50,
+      "level": "INTERMEDIÁRIO"
+    },
+    {
+      "name": "REACT / NEXT",
+      "percentage": 60,
+      "level": "INTERMEDIÁRIO"
+    },
+    {
+      "name": "PYTHON",
+      "percentage": 45,
+      "level": "BÁSICO"
+    },
+    {
+      "name": "JAVASCRIPT",
+      "percentage": 60,
+      "level": "INTERMEDIÁRIO"
+    },
+    {
+      "name": "DOCKER",
+      "percentage": 25,
+      "level": "INICIANTE"
+    },
+    {
+      "name": "IA",
+      "percentage": 70,
+      "level": "INTERMEDIÁRIO"
+    }
+  ]
+}
