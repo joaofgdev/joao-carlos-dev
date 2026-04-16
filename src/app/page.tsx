@@ -1,65 +1,68 @@
-import Image from "next/image";
+import { ButtonAbout } from "@/components/components.button-about";
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
+import { AboutSection } from "@/components/components.about-section";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
+    <>
+      <main className="flex min-h-screen flex-col items-center justify-center px-4 font-space-grotesk pt-20">
+        
+        {/* Intro text */}
+        <h3 className="text-[#72DCFF] text-sm uppercase tracking-[0.2em] font-medium mb-6">
+          DISPONÍVEL PARA NOVOS PROJETOS
+        </h3>
+
+        {/* Main Title */}
+        <h1 className="text-white text-5xl md:text-7xl font-bold mb-2 tracking-tight">
+          João Carlos
+        </h1>
+        
+        {/* Gradient subtitle/name */}
+        <h2 className="text-5xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#4285F4] to-[#B15EFF] mb-8 pb-2">
+          Fagundez
+        </h2>
+
+        {/* Description */}
+        <p className="text-[#A1A1AA] text-center max-w-2xl text-lg md:text-xl mb-12 leading-relaxed">
+          Criando experiências digitais perfeitas por meio de arquitetura moderna full-stack e design intencional.
+        </p>
+
+        {/* Actions */}
+        <div className="flex items-center gap-4">
+          <ButtonAbout href="#sobre">
+            SOBRE MIM
+          </ButtonAbout>
+
+          <div className="flex items-center gap-4 px-6 py-3 rounded-full bg-[#18181A] border border-white/10">
             <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+              href="https://www.instagram.com/jotafagundezz/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white/70 hover:text-white transition-colors"
             >
-              Templates
-            </a>{" "}
-            or the{" "}
+              <FaInstagram size={20} />
+            </a>
             <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+              href="https://www.linkedin.com/in/joão-carlos-fagundez"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white/70 hover:text-white transition-colors"
             >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+              <FaLinkedin size={20} />
+            </a>
+            <a
+              href="https://github.com/joaofgdev"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white/70 hover:text-white transition-colors"
+            >
+              <FaGithub size={20} />
+            </a>
+          </div>
         </div>
       </main>
-    </div>
+
+      <AboutSection />
+    </>
   );
 }
