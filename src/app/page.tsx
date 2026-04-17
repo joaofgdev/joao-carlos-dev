@@ -3,7 +3,7 @@ import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
 import { AboutSection } from "@/components/components.about-section";
 import { ExperienceSection } from "@/components/components.experience-section";
 import { SkillsSection } from "@/components/components.skills-section";
-
+import { ContactSection } from "@/components/components.contact-section";
 export default function Home() {
   return (
     <>
@@ -67,6 +67,7 @@ export default function Home() {
       <AboutSection />
       <ExperienceSection />
       <SkillsSection />
+      <ContactSection />
     </>
   );
 }
